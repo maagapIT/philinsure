@@ -1,0 +1,3 @@
+ALTER TABLE `agent` ADD COLUMN `email` VARCHAR(100) NOT NULL AFTER `name`;
+ALTER TABLE `location` ADD COLUMN `email` VARCHAR(100) NOT NULL AFTER `local_government_tax_percent`;
+ALTER TABLE `marine_certificate` CHANGE COLUMN `currency` `currency` VARCHAR(3) NOT NULL DEFAULT 'PHP' AFTER `location_id`;

@@ -1,0 +1,116 @@
+body {
+	font: 50% "Trebuchet MS", sans-serif;
+}
+.testborder {
+	border: solid 1px black;
+}
+table {
+	width: 100%;
+}
+.mod-button {
+	margin: 10px 0px;
+	padding: 10px 20px;
+}
+.edit-button {
+	background-color: darkgoldenrod;
+	color: white;
+	margin: 0px;
+	padding: 5px 10px;
+}
+.edit-button:hover {
+	background-color: goldenrod;
+}
+.delete-button {
+	background-color: firebrick;
+	color: white;
+	margin: 0px;
+	padding: 5px 10px;
+}
+.delete-button:hover {
+	background-color: red;
+}
+.view-button {
+	background-color: darkgreen;
+	color: white;
+	margin: 0px;
+	padding: 5px 10px;
+}
+.view-button:hover {
+	background-color: green;
+}
+.regular-button {
+	margin: 0px;
+	padding: 5px 10px;
+}
+.add-button {
+	background-color: orange;
+	color: #333333;
+	margin: 10px 0px;
+	padding: 10px 15px;
+}
+.add-button:hover {
+	background-color: gold;
+	color: #333333;
+}
+.toolbar-button {
+	margin: 10px 0px;
+	padding: 10px 15px;
+}
+.field-required {
+	color: red;
+}
+.switch-on {
+	position: absolute;
+	left: -50px;
+	top: 8px;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+}
+.switch-off {
+	position: absolute;
+	left: -23px;
+	top: 8px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 10px;
+}
+.title-button {
+	color: gray;
+}
+/* foundation */
+.tabs dd>a, .tabs .tab-title>a {
+	background-color: goldenrod;
+	margin: 0px 2px;
+	padding: 5px 15px;
+	border-radius: 3px;
+}
+.tabs dd.active a, .tabs .tab-title.active a {
+	background-color: lightgray;
+}
+.tabs dd>a:hover, .tabs .tab-title>a:hover {
+	background-color: gold;
+	transition: all 0.3s ease 0s;
+}
+.accordion .accordion-navigation>a, .accordion dd>a {
+	background-color: goldenrod;
+	padding: 7px 20px;
+	border-radius: 3px;
+}
+.accordion .accordion-navigation.active>a, .accordion dd.active>a {
+	background-color: lightgray;
+	font-weight: bold;
+}
+.accordion .accordion-navigation>a:hover, .accordion dd>a:hover {
+	background-color: gold;
+	transition: all 0.3s ease 0s;
+}
+/* chosen */
+.chosen-container {
+	width: 100%!important;
+	height: 100px!important;
+}
+.chosen-container-multi .chosen-choices {
+	height: 100px!important;
+	overflow-y: auto;
+}
